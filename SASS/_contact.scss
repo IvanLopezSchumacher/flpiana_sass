@@ -1,0 +1,41 @@
+$primary-color: #7858A6;
+$p-color: #dadada;
+
+.contact {
+    margin: 0 auto;
+    font-family: 'Roboto';
+    color: $p-color;
+    width: 100%;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid $p-color;
+    border-radius: 4px;
+    resize: vertical;
+    background-color: transparent;
+    color: $p-color;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 100%;
+    margin-top: 6px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
